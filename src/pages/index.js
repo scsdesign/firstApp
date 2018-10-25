@@ -5,10 +5,14 @@ import Layout from '../components/layout'
 
 const IndexPage = () => (
   <Layout>
-    <h1>Learn to code React</h1>
-    <p>This a totally new sentence </p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Watch Video </Link>
+    <div className ="Hero">
+      <div className="HeroGroup">
+      <h1>Learn to design<br />and code React</h1>
+      <p>This a totally new sentence </p>
+      <p>Now go build something great.</p>
+      <Link to="/page-2/">Watch Video </Link>
+      </div>
+    </div>
   </Layout>
 )
 
